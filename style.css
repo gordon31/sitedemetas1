@@ -8,3 +8,39 @@
 --botao-ativo: rgba(58, 55, 94, 0.5);
 --botao-ativo: rgba(58, 55, 94, 0.3);
 }
+
+body{
+    background-color: var(--cor-de-fundo));
+    color: var(--branco); font-family; 'Chakra', sans-serif;
+}
+
+.conteudo-principal {
+    diplay: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span{
+    color: var(--verde);
+}
+
+.botao {
+    font-family: <<chaKra Petch>>, sans-serif;
+background-color: var(--botao-inativo);
+color: var(--branco); display: flex;
+justify-content: center;
+padding; 1em;
+font-size; 18px;
+align-items: center;
+width: 100%;
+border-bottom: 4px solid var(--botao-ativo);
